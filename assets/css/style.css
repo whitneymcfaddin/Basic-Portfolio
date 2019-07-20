@@ -1,5 +1,4 @@
 header {
-  background: #4aaaa5;
   color: white;
   background: #ffffff;
   border: #cccccc;
@@ -13,6 +12,11 @@ body {
   line-height: 150%;
   color:#777777;
   background: white;
+}
+
+.container_0 {
+  width: 300px;
+  margin: left;
 }
 
 h1 {
@@ -33,6 +37,10 @@ h2 {
 a {
   color: #d21034;
 }
+.header_1 {
+  display: flex;
+  justify-content: space-between;
+}
 
 .container {
   width: 1024px;
@@ -46,7 +54,7 @@ a {
 }
 
 .main-bio {
-  width: 70%;
+  width: 100%;
   padding: 0, 10%;
   background: #ffffff;
 }
@@ -60,24 +68,23 @@ a {
   height: 200px;
   margin-right: 20px;
 }
-.bio-image:hover {
-  min-width: 500px;
-}
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #777777;
-    color: white;
-    text-align: center;
-  }
- 
 .btn-group {
   color:#777777;
   text-align: right;
+  width: auto
 }
 
+.bio-image:hover {
+  min-width: 400px;
+}
 
-
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #777777;
+  color: white;
+  text-align: center;
+}
