@@ -6,17 +6,37 @@
   <meta charset="UTF-8">
   <title>Whitney McFaddin Contact</title>
 
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
   <header class="header_1">
     <div class="container_0"><h1>Whitney McFaddin</h1></div>
     <div class="btn-group"> 
-      <button>About</button>
-      <button>Portfolio</button>
-      <button>Contact</button>
+      <a href="./index.html"><button>About</button></a>
+      <a href="./portfolio.html"><button>Portfolio</button></a>
+      <a href="./contact.html"><button>Contact</button></a>
     </div>
   </header>
 
- 
+  <div class="container_contact">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+      <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <input type="submit" value="Submit">
+    
+  </form>
+</div>
+
+  <div class="footer">
+    © 2019 WEM UofO Bootcamp    
+  </div>    
+</body>
+</html>
